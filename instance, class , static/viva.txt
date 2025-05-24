@@ -1,0 +1,32 @@
+Zaroor Mahab! Yahaan **viva ke 10 questions** hain Python ke `Instance`, `Class`, aur `Static Methods` par, **one-line answers** ke saath:
+
+1. **What is an instance method?**
+   👉 Method that works with object (instance) data using `self`.
+
+2. **What is a class method?**
+   👉 Method that works with class-level data using `cls`.
+
+3. **What is a static method?**
+   👉 Method that doesn’t use `self` or `cls`, works like a utility function.
+
+4. **Which decorator is used for class methods?**
+   👉 `@classmethod`
+
+5. **Which decorator is used for static methods?**
+   👉 `@staticmethod`
+
+6. **Which method can access and modify instance variables?**
+   👉 Instance method
+
+7. **Which method can access and modify class variables?**
+   👉 Class method
+
+8. **Can a static method access class or instance variables?**
+   👉 No, it can’t access any.
+
+9. **Which method is called automatically when object is created?**
+   👉 Constructor (`__init__`)
+
+10. **Which method is called automatically when object is deleted?**
+    👉 Destructor (`__del__`)
+

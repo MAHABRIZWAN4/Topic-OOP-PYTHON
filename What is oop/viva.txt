@@ -1,0 +1,84 @@
+Q1) What is OOP?
+Ans) **OOP in Python** means writing code using **objects**.
+
+An **object** is something that has:
+
+* **Data** (called attributes)
+* **Functions** (called methods)
+
+OOP helps us to:
+
+* Keep code clean
+* Reuse code
+* Make big programs easier to manage
+
+Python uses **classes** to create objects.
+
+
+
+Q2) What is an Attribute?
+Ans) ### **Easy Definition of Attribute in Python:**
+
+An attribute in Python is a variable inside a class that stores information about an object.
+
+---
+
+### **Example:**
+
+```python
+class Car:
+    def __init__(self, color, brand):
+        self.color = color      # attribute
+        self.brand = brand      # attribute
+
+my_car = Car("Red", "Toyota")
+
+print(my_car.color)   # Output: Red
+print(my_car.brand)   # Output: Toyota
+```
+
+---
+
+### **Explanation (Easy Words):**
+
+* `color` and `brand` are **attributes** of the `Car` object.
+* They tell us **what color** and **which brand** the car is.
+* `self.color = color` means we are **saving** the color inside the object.
+  
+
+
+Q3)  What is __init__?
+Ans) The __init__ method is a special function that runs automatically when we create an object from the class.
+It is used to initialize (set) the object's attributes.
+
+
+
+Q4) Who invented oop?
+Inventors: Ole-Johan Dahl & Kristen Nygaard
+
+Country: Norway
+
+First OOP Language: Simula (around 1967)
+
+Purpose: To model real-world things using objects in programming
+
+
+Q5) What is in object?
+Ans) An object is an instance of a class
+
+
+Q6) What is class?
+Ans) Which is a blueprint for creating objects
+
+
+Q7) Why the self keyword is used?
+Ans) The self keyword is used to refer to the current instance of the class.
+
+
+Q8) How Objects are created? 
+Ans) Objects are created by calling the class name like a function.
+
+
+
+
+

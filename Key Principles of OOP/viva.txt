@@ -1,0 +1,151 @@
+Q1) How many Key Principles of OOP?
+Ans) OOP is built on four fundamental principles:
+1.Encapsulation
+2.Abstraction
+3.Inheritance
+4.Polymorphism
+
+
+Q2) What is Encapsulation?
+Ans) Encapsulation means wrapping data (variables) and code (methods) together into one unit (a class) and hiding the internal details from outside access.
+
+
+Q3) Why is Encapsulation important?
+Ans) To protect data and control access to it.
+
+
+Q4) How is Encapsulation implemented in Python?
+→ Using classes and access modifiers (public, _protected, __private).
+
+
+Q5) What is a private variable in Python?
+Ans) A variable with __ prefix; not directly accessible.
+
+
+Q6) Difference: public, protected, private?
+Ans) public: anywhere, _protected: internal use, __private: hidden
+
+
+Q7) Can you access private variables outside?
+Ans) Not directly; use getters or name mangling.
+
+
+Q8) What is Name Mangling in Python?
+Ans) Name mangling is a process in Python where private variables (starting with __) are internally renamed by the interpreter to avoid accidental access.
+
+🔸 Syntax:
+A variable like __x becomes _ClassName__x internally.
+
+🔸 Purpose:
+To protect private variables from being accessed or modified outside the class accidentally.
+
+✅ Example:
+class Test:
+    def __init__(self):
+        self.__value = 10
+
+obj = Test()
+print(obj._Test__value)  # Output: 10
+📌 __value becomes _Test__value internally. This is name mangling.
+
+
+
+Q9) What are getters and setters?
+Ans) Methods to read (get) or update (set) private data.
+
+
+
+Q10) Example of Encapsulation?
+
+Ans) class A:
+    def __init__(self):
+        self.__x = 10
+
+
+Q11) How does Encapsulation secure data?
+Ans) It hides data and only allows controlled access.
+
+
+Q12) What is Abstraction?
+Ans) An abstract class is a blueprint for other classes. It has some methods without code, and you cannot use it directly.
+
+
+Q13) Which module is used to implement abstraction in Python?
+Ans) The abc (Abstract Base Classes) module.
+
+
+Q14) What decorator is used to declare an abstract method?
+Ans) @abstractmethod.
+
+
+Q15) Can you create an object of an abstract class?
+Ans) No, you cannot instantiate an abstract class directly.
+
+
+Q16) What error occurs if a subclass doesn't implement an abstract method?
+Ans) TypeError.
+
+
+Q17) Why do we use abstraction in Python?
+Ans) To hide internal details and expose only essential features.
+
+Q18) Can an abstract class have non-abstract (concrete) methods?
+Ans) Yes, it can have both abstract and concrete methods.
+
+
+Q19) Can an abstract class have a constructor?
+Ans) Yes, it can have a constructor like any other class.
+
+
+Q20) What does ABC stand for in Python?
+Ans) Abstract Base Class.
+
+
+Q21) Difference between Encapsulation And Abstraction?
+Ans) Encapsulation: Data ko lock karna, taake koi usay directly access na kare.
+
+Example: Aapka WhatsApp PIN — koi directly messages nahi dekh sakta.
+
+Abstraction: Sirf important cheez dikhana, complex logic chhupa lena.
+
+Example: Jab aap fan ka switch on karte ho, aapko nahi pata wiring kaise kaam karti hai.
+
+
+Q22) What is Inheritance?
+Ans) Inheritance allows a class(child class) to inherit attribute and methods from another class(parent class). This promotes code reuse and establishes hierarchical relationship between classes.
+
+
+Q23) What is a base class?
+Ans) A base class is the class being inherited from.
+
+
+Q24) What is a derived class?
+Ans) A derived class is the class that inherits from the base class.
+
+
+Q25) What is single inheritance?
+Ans) Single inheritance is when a class inherits from only one base class.
+
+
+Q26) What is multiple inheritance?
+Ans) Multiple inheritance is when a class inherits from more than one base class.
+
+
+Q27) What is the use of the `super()` function?
+Ans) `super()` is used to call methods of the base class.
+
+Q28) Can constructors be inherited in Python?
+Ans) Yes, constructors can be inherited and overridden in Python.
+
+
+Q29) What is method overriding?
+Ans) Method overriding is redefining a base class method in the derived class.
+
+Q30) Does Python support multilevel inheritance?
+Ans) Yes, Python supports multilevel inheritance.
+
+
+Q31) What is hierarchical inheritance?
+Ans) When multiple derived classes inherit from a single base class, it is called hierarchical inheritance.
+
+

@@ -1,0 +1,10 @@
+Summary of Constructor And Destructor:::
+
+Explanation of the Code
+Constructor (__init__): The __init__ method initializes the brand and model attributes of the Car class and prints a message when the object is created.
+
+Destructor (__del__): The __del__ method prints a message when the object is destroyed. This is triggered automatically when the object goes out of scope or is explicitly deleted using the del keyword.
+
+Object Creation: An object my_car is created with the brand "Toyota" and model "Corolla". The constructor is called automatically.
+
+Object Deletion: The del keyword is used to explicitly delete the my_car object, which triggers the destructor.
