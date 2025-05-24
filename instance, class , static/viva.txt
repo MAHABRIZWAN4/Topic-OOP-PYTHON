@@ -1,5 +1,3 @@
-Zaroor Mahab! Yahaan **viva ke 10 questions** hain Python ke `Instance`, `Class`, aur `Static Methods` par, **one-line answers** ke saath:
-
 1. **What is an instance method?**
    👉 Method that works with object (instance) data using `self`.
 
